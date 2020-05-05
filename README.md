@@ -10,5 +10,6 @@ Chapter done :
         	- Class
             - Statics
             - Heritage
+	    -  Pratical Work - Gold book
 
-in doing : Pratical Work - Gold book
+in doing :
