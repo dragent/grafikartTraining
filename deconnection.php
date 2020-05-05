@@ -1,0 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['admin']))
+    {
+        header("location:".DIRECTORY_SEPARATOR);
+        exit();
+    }
+    $_SESSION['admin']=null;
+    header('location:'.DIRECTORY_SEPARATOR);
+    exit();
